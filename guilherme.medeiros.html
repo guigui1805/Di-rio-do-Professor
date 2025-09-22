@@ -5,102 +5,142 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel='stylesheet' type='text/css' media="screen" href='guilherme.medeiros.css'>
 </head>
 
 <body>
-    <header>
-        <img src="https://raw.githubusercontent.com/JaneEleuterio/ProgWeb/main/logo.png" alt="logo" width="40"
-            align="left">
+    <header class="cabecalho">
+        <img src="https://raw.githubusercontent.com/JaneEleuterio/ProgWeb/main/logo.png" alt="logo" width="40">
         <h3>Diário do Professor</h3>
     </header>
-    <nav>
-        <img src="https://raw.githubusercontent.com/JaneEleuterio/ProgWeb/main/inicio.jpg" alt="Inicio" width="30"
-            align="left">
-        <h4><a href="">Início</a></h4>
-        <img src="https://raw.githubusercontent.com/JaneEleuterio/ProgWeb/main/turmas.jpg" alt="Turmas" width="30"
-            align="left">
-        <h4><a href="">Turmas</a></h4>
-        <img src="https://raw.githubusercontent.com/JaneEleuterio/ProgWeb/main/pendencias.jpg" alt="Pendências"
-            width="30" align="left">
-        <h4><a href="">Pendências</a></h4>
-        <img src="https://raw.githubusercontent.com/JaneEleuterio/ProgWeb/main/ajuda.jpg" alt="Ajuda" width="30"
-            align="left">
-        <h4><a href="">AJuda</a></h4>
-
-    </nav>
-    <section>
-        <section>
-            <header>
-                <h2>PROGRAMAÇÃO PARA WEB</h2> <a href=""> Voltar </a>
-                <p>Cód Disciplina 1910004145 - 68 horas</p>
-                <p>TURMA T01 - 2024/2</p>
-            </header>
-            <nav>
+    <div class="corpo_da_pagina">
+        <aside class="esquerda">
+            <nav class="barra_nav_esquerda">
                 <ul>
-                    <li><a href="">RESUMO</a></li>
-                    <li><a href="">ESTUDANTES</a></li>
-                    <li><a href="">AULAS</a></li>
-                    <li><a href="">FREQUÊNCIAS</a></li>
-                    <li><a href="">AVALIAÇÕES</a></li>
-                    <li><a href="">PLANO DE ENSINO</a></li>
-                    <li><a href="">NOTAS</a></li>
-                    <li><a href="">NOTAS</a></li>    
-                </ul>    
+                    <li>
+                        <a href="" class="branco">
+                            <img src="https://raw.githubusercontent.com/JaneEleuterio/ProgWeb/main/inicio.jpg"
+                                alt="Inicio" width="30">
+                            <span>Início</span>
+
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="" class="branco">
+                            <img src="https://raw.githubusercontent.com/JaneEleuterio/ProgWeb/main/turmas.jpg"
+                                alt="Turmas" width="30">
+                            <span>Turmas</span>
+                        </a>
+
+                    </li>
+                    <li>
+                        <a class="cor" href="">
+                            <img src="https://raw.githubusercontent.com/JaneEleuterio/ProgWeb/main/pendencias.jpg"
+                                alt="Pendências" width="30">
+                            <span>Pendências</span>
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="https://raw.githubusercontent.com/JaneEleuterio/ProgWeb/main/ajuda.jpg"
+                                alt="Ajuda" width="30">
+                            <span>AJuda</span>
+                        </a>
+                    </li>
+
+
+                </ul>
             </nav>
-        </section>
-        <header>
-            <h3>Relatórios</h3>
-        </header>
-        <main>
-            <article>
-                <h4>Plano de Ensino</h4>
-                <p>Gerar Plano de Ensino em formato de impressão </p>
-            </article>
-            <article>
-                <h4>Relatório de Fechamento</h4>
-                <p>Gerar Ata Final. Este relatório só pode ser gerado quando todas médias estiverem publicadas. </p>
-            </article>
-            <article>
-                <h4>Relatório de Notas</h4>
-                <p>Gerar Relatório de notas.</p>
+            <footer class="rodape">
+                <img class="logo-agetic"
+                    src="https://raw.githubusercontent.com/JaneEleuterio/ProgWeb/main/logoAgetic.png" alt="logoAgetic">
+                <img class="logo-ufms" src="https://raw.githubusercontent.com/JaneEleuterio/ProgWeb/main/logoUFMS.png"
+                    alt="logoUFMS">
+            </footer>
 
-            </article>
-            <article>
-                <h4>Lista de Presença</h4>
-                <p>Gerar Lista de Presença. Preenchimento de datas e horários manuais.</p>
+        </aside>
 
-            </article>
-                <h4>Controle de Frequência do Acadêmico</h4>
-                <p>São mostradas as frequências por dia letivo.</p>
-            <article>
-                <h4>Controle de Frequência do Acadêmico</h4>
-                <p>São mostradas as frequências por dia letivo.</p>
-            </article>
-            <article>
-                <h4>E-mails dos Estudantes</h4>
-                <p>Copiar os e-mails dos estudantes.</p>
 
-            </article>
-            <article>
-                <h4>Relatório de Registro de Frequência</h4>
-                <p>Relatório em excel</p>
+        <main class="corpoMain">
+            <div class="topo">
+                <header class="headerMain">
+                    <div class="div">
+                        <h2>PROGRAMAÇÃO PARA WEB</h2>
+                        <p>Cód Disciplina 1910004145 - 68 horas</p>
+                        <p class="laranja">TURMA T01 - 2024/2</p>
+                    </div>
+                    <a href="">Voltar</a>
+                </header>
+                <nav class="barra_nav_main">
+                    <ul>
+                        <li><a href="">RESUMO</a></li>
+                        <li><a href="">ESTUDANTES</a></li>
+                        <li><a href="">AULAS</a></li>
+                        <li><a href="">FREQUÊNCIAS</a></li>
+                        <li><a href="">AVALIAÇÕES</a></li>
+                        <li><a href="">PLANO DE ENSINO</a></li>
+                        <li><a href="">NOTAS</a></li>
+                        <li><a href="">NOTAS</a></li>
+                    </ul>
+                </nav>
+            </div>
 
-            </article>
+            <section>
+                <div class="item-relatorio">
+                    <h3>Relatórios</h3>
+                </div>
+                <div class="corpo_relatorio">
+                    <article>
+                        <h4>Plano de Ensino</h4>
+                        <p>Gerar Plano de Ensino em formato de impressão </p>
+                    </article>
+                    <article>
+                        <h4>Relatório de Fechamento</h4>
+                        <p>Gerar Ata Final. Este relatório só pode ser gerado quando todas médias estiverem publicadas.
+                        </p>
+                    </article>
+                    <article>
+                        <h4>Relatório de Notas</h4>
+                        <p>Gerar Relatório de notas.</p>
+
+                    </article>
+                    <article>
+                        <h4>Lista de Presença</h4>
+                        <p>Gerar Lista de Presença. Preenchimento de datas e horários manuais.</p>
+
+                    </article>
+                    <article>
+                        <h4>Controle de Frequência do Acadêmico</h4>
+                        <p>São mostradas as frequências por dia letivo.</p>
+                    </article>
+
+                    <article>
+                        <h4>Controle de Frequência do Acadêmico</h4>
+                        <p>São mostradas as frequências por dia letivo.</p>
+                    </article>
+                    <article>
+                        <h4>E-mails dos Estudantes</h4>
+                        <p>Copiar os e-mails dos estudantes.</p>
+
+                    </article>
+                    <article>
+                        <h4>Relatório de Registro de Frequência</h4>
+                        <p>Relatório em excel</p>
+
+                    </article>
+
+                </div>
+
+            </section>
+
         </main>
-    </section>
-    <footer>
-        <img src="https://raw.githubusercontent.com/JaneEleuterio/ProgWeb/main/logoAgetic.png" alt="logoAgetic"
-            width="60 px" align="left">
-        <img src="https://raw.githubusercontent.com/JaneEleuterio/ProgWeb/main/logoUFMS.png" alt="logoUFMS"
-            width="30 px" align="left">
-    </footer>
+
+
+    </div>
+
+
 </body>
 
 </html>
-
-<!--
-melhorias:
-usar listas de definição
-
-
--->
